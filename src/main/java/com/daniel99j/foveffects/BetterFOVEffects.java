@@ -29,7 +29,7 @@ import java.util.function.IntFunction;
 public class BetterFOVEffects implements ModInitializer {
 	public static final String MOD_ID = "better-fov-effects";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
-	private static final OptionInstance<ModMode> MODE = new OptionInstance<>("options.betterfov.mode", OptionInstance.cachedConstantTooltip(Component.translatable("options.betterfov.mode.tooltip")), (caption, value) -> value.caption(), new OptionInstance.Enum<>(Arrays.asList(ModMode.values()), ModMode.OPTIONS_CODEC), ModMode.ON, OptionInstance.NO_ACTION);
+	private static final OptionInstance<ModMode> MODE = new OptionInstance<>("options.betterfov.mode", OptionInstance.cachedConstantTooltip(Component.translatable("options.betterfov.mode.tooltip")), (caption, value) -> value.caption(), new OptionInstance.Enum<>(Arrays.asList(ModMode.values()), ModMode.OPTIONS_CODEC), ModMode.FAST_MOVEMENT, OptionInstance.NO_ACTION);
 
 	public static OptionInstance<ModMode> mode() {
 		return MODE;
