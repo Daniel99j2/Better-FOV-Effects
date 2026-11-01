@@ -1,17 +1,17 @@
 {
-	"required": true,
-	"package": "com.daniel99j.foveffects.mixin",
-	"compatibilityLevel": "JAVA_25",
-	"mixins": [
-      "FovEffectsMixin"
-	],
-	"injectors": {
-		"defaultRequire": 1
-	},
-	"overwrites": {
-		"requireAnnotations": true
-	},
-	"client": [
-		"UnboundFovMixin"
-	]
+  "required": true,
+  "package": "com.daniel99j.foveffects.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "FovEffectsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  },
+  "client": [
+    "UnboundFovMixin"
+  ]
 }

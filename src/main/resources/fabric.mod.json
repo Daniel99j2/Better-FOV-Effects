@@ -3,17 +3,17 @@
 	"id": "better-fov-effects",
 	"version": "${version}",
 	"name": "Better FOV effects",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Replaces the movement-speed-based FOV effect system with a velocity-based one",
 	"authors": [
-		"Me!"
+		"Daniel99j"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/Daniel99j2/Better-FOV-Effects",
+		"sources": "https://github.com/Daniel99j2/Better-FOV-Effects"
 	},
-	"license": "CC0-1.0",
+	"license": "CC-BY-NC-SA-4.0",
 	"icon": "assets/better-fov-effects/icon.png",
-	"environment": "*",
+	"environment": "client",
 	"entrypoints": {
 		"main": [
 			"com.daniel99j.foveffects.BetterFOVEffects"
@@ -23,9 +23,7 @@
 		"better-fov-effects.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.20.1",
 		"minecraft": "~26.3",
-		"java": ">=25",
 		"fabric-api": "*"
 	}
 }

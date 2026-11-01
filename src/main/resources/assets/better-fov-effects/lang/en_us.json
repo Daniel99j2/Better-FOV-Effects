@@ -1,0 +1,8 @@
+{
+  "options.betterfov.mode.tooltip": "Velocity-based FOV mode",
+  "options.betterfov.mode": "Better FOV Mode",
+  "options.betterfov.mode.off": "Off",
+  "options.betterfov.mode.on": "On",
+  "options.betterfov.mode.elytra": "Elytra flight",
+  "options.betterfov.mode.fast": "High speed"
+}
